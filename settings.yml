@@ -11,7 +11,7 @@ put_in_popup_menu:
   type: bool
   default: true
   description: "Add the Dialog button to popup options menu. Uncheck this to put it to toolbar section."  
-composer_footnote_button_group:
+composer_dialog_button_group:
   default: insertions
   type: enum
   choices:

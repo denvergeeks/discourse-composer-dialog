@@ -54,10 +54,6 @@ export default {
       <button id="jsbutton">JS close</button>
       <button id="reset" type="reset">Reset</button>
   </form>',
-</dialog>
-
-<button id="modal">Open Modal dialog</button>
-<p id="text"></p>
 
 
 

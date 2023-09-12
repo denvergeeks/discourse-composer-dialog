@@ -20,7 +20,7 @@ export default {
         actions: {
           dialogButton() {
             this.get("toolbarEvent").applySurround(
-  '<dialog id=\"dialog\"><button type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>',
+  '<dialog><button type="submit" aria-label="close" formmethod="dialog" formnovalidate>X</button>',
   "</dialog><button id="modal">Open Modal dialog</button>",
               "dialog_button_text",
               { multiline: false }

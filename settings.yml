@@ -1,7 +1,7 @@
-composer_footnote_button_icon:
+composer_dialog_button_icon:
   type: string
   default: "superscript"
-  description: "Change footnote button icon."
+  description: "Change Dialog button icon."
 svg_icons: 
   default: "superscript"
   type: "list"
@@ -10,11 +10,11 @@ svg_icons:
 put_in_popup_menu:
   type: bool
   default: true
-  description: "Add the footnote button to popup options menu. Uncheck this to put it to toolbar section."  
+  description: "Add the Dialog button to popup options menu. Uncheck this to put it to toolbar section."  
 composer_footnote_button_group:
   default: insertions
   type: enum
   choices:
     - fontStyles
     - extras
-  description: "Change footnote button group position."
+  description: "Change Dialog button group position."

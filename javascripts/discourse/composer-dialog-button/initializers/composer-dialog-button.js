@@ -20,7 +20,7 @@ export default {
         actions: {
           dialogButton() {
             this.get("toolbarEvent").applySurround(
-  '<dialog id=\"dialog\">
+  '<dialog id=\"dialog\">',
   "</dialog>",
               "dialog_button_text",
               { multiline: false }
